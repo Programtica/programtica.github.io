@@ -28,7 +28,7 @@ $(document).ready(function() {
 	}
 	
 	function getAllTasks() {
-		val requestUrl = apiRoot + 'getTasks';
+		var requestUrl = apiRoot + 'getTasks';
 	}
 	
 	$.ajax({
