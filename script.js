@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    const apiRoot = 'http://mighty-ridge-59808.herokuapp.com/v1/';
-    const trelloApiRoot = 'http://mighty-ridge-59808.herokuapp.com/v1/trello/';
+    const apiRoot = 'https://mighty-ridge-59808.herokuapp.com/v1/';
+    const trelloApiRoot = 'https://mighty-ridge-59808.herokuapp.com/v1/trello/';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
 
